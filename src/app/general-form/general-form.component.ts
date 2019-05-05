@@ -38,7 +38,6 @@ export class GeneralFormComponent implements OnInit, OnChanges {
 
   onSubmit() {
     if (this.generalForm.valid) {
-
       console.log('submitting general form: ', this.generalForm.value);
       this.generalChanges.emit(this.generalForm.value);
     } else {
