@@ -1,0 +1,69 @@
+
+[
+  {
+    "id": "1",
+    "name": "Panda",
+    "brand": "Fiat",
+    "color": "red",
+    "price": "13.795",
+    "fuel": {
+      "fuelCapacity": "10",
+      "fuelConsumption": "5",
+      "fuelEfficiency": "5",
+      "fuelType": "normal"
+    }
+  },
+  {
+    "id": "2",
+    "name": "A5 Coupe",
+    "brand": "Audi",
+    "color": "red",
+    "price": "43.940",
+    "fuel": {
+      "fuelCapacity": "10",
+      "fuelConsumption": "5",
+      "fuelEfficiency": "5",
+      "fuelType": "normal"
+    }
+  },
+  {
+    "id": "3",
+    "name": "Aygo",
+    "brand": "Toyato",
+    "color": "Blue",
+    "price": "11.795",
+    "fuel": {
+      "fuelCapacity": "10",
+      "fuelConsumption": "5",
+      "fuelEfficiency": "5",
+      "fuelType": "Hydrogen"
+    }
+  },
+  {
+    "id": "4",
+    "name": "A 160",
+    "brand": "Mercedes-benz",
+    "color": "Silver",
+    "price": "30.710",
+    "fuel": {
+      "fuelCapacity": "10",
+      "fuelConsumption": "5",
+      "fuelEfficiency": "5",
+      "fuelType": "BioDiesel"
+    }
+
+  },
+  {
+    "id": "5",
+    "name": "Corsa 5-deurs",
+    "brand": "Opel",
+    "color": "White",
+    "price": "19.588",
+    "fuel": {
+      "fuelCapacity": "10",
+      "fuelConsumption": "5",
+      "fuelEfficiency": "5",
+      "fuelType": "Diesel"
+    }
+  }
+]

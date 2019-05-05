@@ -1,0 +1,49 @@
+<div class="car-panel">
+
+  <h1> Car panel </h1>
+
+  <p-table [value]="cars">
+    <ng-template pTemplate="header">
+      <tr>
+        <th> Name</th>
+        <th> Brand</th>
+        <th> Color</th>
+        <th> Price</th>
+        <th> Fuel</th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-car>
+      <tr>
+        <td> {{car.name}}</td>
+        <td> {{car.brand}}</td>
+        <td> {{car.color}}</td>
+        <td> {{car.price}}</td>
+        <td> {{car.fuel.fuelType}}</td>
+        <td>
+          <button (click)="onClick(car)"> Edit</button>
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+
+</div>
+
+
+<div class="car-panel">
+
+  <p-card *ngIf="selectedCar" header="CarForm">
+
+    <app-general-form
+    [selectedCar]="selectedCar"
+    (generalChanges)="onGeneralChanges($event)">
+
+    </app-general-form>
+
+
+    <app-fuel-form
+      [selectedCar]="selectedCar"
+      (fuelChanges)="onFuelChanges($event)">
+    </app-fuel-form>
+  </p-card>
+
+</div>

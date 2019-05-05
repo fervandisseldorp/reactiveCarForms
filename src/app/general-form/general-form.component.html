@@ -1,0 +1,16 @@
+
+
+<form [formGroup]="generalForm" (ngSubmit)="onSubmit()">
+
+  <label> name </label>
+  <input type="text" formControlName="name">
+
+  <label> brand </label>
+  <input type="text" formControlName="brand">
+
+  <label> color </label>
+  <input type="text" formControlName="color">
+
+  <button> Save </button>
+
+</form>

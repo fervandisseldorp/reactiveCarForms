@@ -1,0 +1,26 @@
+
+<div>
+  <h3> {{selectedCar.brand}} {{selectedCar.name}}</h3>
+</div>
+
+<form [formGroup]="fuelForm" (ngSubmit)="onSubmit()">
+
+  <label> fuelCapacity </label>
+  <input type="text" formControlName="fuelCapacity">
+
+  <label> fuelConsumption </label>
+  <input type="text" formControlName="fuelConsumption">
+
+  <label> fuelEfficiency </label>
+  <input type="text" formControlName="fuelEfficiency">
+
+  <label> fuelType </label>
+  <input type="text" formControlName="fuelType">
+
+  <button> Save </button>
+
+</form>
+
+
+
+
